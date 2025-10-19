@@ -5,7 +5,7 @@ class Solution(object):
         :type needle: str
         :rtype: int
         """
-        # m = len(haystack)
+        m = len(haystack)
         n = len(needle)
         
         for i in range(m-n+1):
